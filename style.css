@@ -17,83 +17,94 @@ justify-content: center;
 align-items: center;
 }
 
-.header__avatar {
+.header_avatar {
+  margin: 20px 0 0 0;
+  width: 50%;
+  height: auto;
   border-radius: 30%;
   border: 4px solid;
   border-color:#FFFFFF;
-  text-align:center;
-}
-
-/*.my_img {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  
-  font-size: 32pt;
-  font-family: "Helvetica Neue";
-  color:#FFFFFF;
-  text-align:center;
+  text-align: center;
   }
-  float: center;  Выстраиваем элементы по горизонтали */
- /* margin: 2% 0 0 2%;  Отступы вокруг */
+
+._text {
+  color: #FFFFF;
+  font-size: 16pt;
+  text-align: center;
+  font-family: "Bahnschrift"
+    }
+ 
   
   .image {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  
-}
+  justify-content: center;   /*space-around  */
+ padding: 2%;
+ }
 
 .features-block span {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+ display: flex;
+ flex-direction: column;  /* row */
+ justify-content: center;
+ width: 100%; 
 }
 
+
+
 .features-block span > picture {
-  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
 
 .features-block span img {
-  width: 100%;  /*Ширина width: 30px; */
-  height: auto;
-  border-radius: 50%;
-  border: 4px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+   /*  height: auto; padding: 2%;Ширина width: 30% 30px; */
+  /*object-fit: inherit ;*/
+  
+  width: 80%;
+  border-radius: 40%;
+  border: 3px solid;
   border-color:#FFFFFF;
- }
+  line-height: 140%;
+  }
    
 
-.header__title {
+.header_title {
   text-align:center;
   font-size: 36pt;
   font-family: "Helvetica Neue";
   color:#FFFFFF;
-   line-height: 1.1;
+ line-height: 20%;
 }
 
-.header__title1 {
+.header_title1 {
   text-align:center;
   font-size: 30pt;
   font-family: "Helvetica Neue";
   color:#FFFFFF;
-  line-height: 1.2;
+  line-height: 20%;
 }
 
-.header__subtitle {
+.header_subtitle {
   color: #FFFFF;
   font-size: 30pt;
   text-align:center;
-  line-height: 1.2;
+  line-height: 5%;
  }
 
 .any_text {
   color: #FFFFF;
   font-size: 26pt;
   text-align:center;
-  font-family: "Bahnschrift";
+  font-family: "Helvetica Neue";
   margin: 0;
+  line-height: 150%;
 }
 
 
@@ -107,7 +118,7 @@ align-items: center;
 .links__header {
   font-family: "Helvetica Neue";
   font-size: 24px;
-  line-height: 1.4;
+  line-height: 120%;
   margin: 0 0 15px 0;
 }
 
