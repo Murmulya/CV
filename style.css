@@ -50,13 +50,10 @@ align-items: center;
  width: 100%; 
 }
 
-
-
 .features-block span > picture {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .features-block span img {
@@ -73,7 +70,17 @@ align-items: center;
   border-color:#FFFFFF;
   line-height: 140%;
   }
-   
+ 
+
+ .video_ {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;   /*space-around  */
+  padding: 2%;
+ }
+
+
 
 .header_title {
   text-align:center;
